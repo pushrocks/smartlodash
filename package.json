@@ -1,0 +1,28 @@
+{
+  "name": "smartlodash",
+  "version": "1.0.0",
+  "description": "lodash with typings",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/pushrocks/smartlodash.git"
+  },
+  "keywords": [
+    "lodash",
+    "typings"
+  ],
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/pushrocks/smartlodash/issues"
+  },
+  "homepage": "https://gitlab.com/pushrocks/smartlodash#README",
+  "dependencies": {
+    "@types/lodash": "^4.14.56",
+    "lodash": "^4.17.4"
+  }
+}
