@@ -1,2 +1,2 @@
 import * as lodash from 'lodash';
-export { lodash };
+export default lodash;
