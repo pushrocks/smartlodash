@@ -1,3 +1,3 @@
-import * as lodash from 'lodash'
+import * as lodash from 'lodash';
 
-export default lodash
+export default lodash;

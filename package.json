@@ -1,11 +1,13 @@
 {
-  "name": "smartlodash",
+  "name": "@pushrocks/smartlodash",
   "version": "1.0.1",
+  "private": false,
   "description": "lodash with typings",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "(npmts)"
+    "test": "(tstest test/)",
+    "build": "tsbuild"
   },
   "repository": {
     "type": "git",
@@ -22,11 +24,14 @@
   },
   "homepage": "https://gitlab.com/pushrocks/smartlodash#README",
   "dependencies": {
-    "@types/lodash": "^4.14.68",
-    "@types/node": "^8.0.10",
-    "lodash": "^4.17.4"
+    "@types/lodash": "^4.14.116",
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
-    "tapbundle": "^1.1.1"
+    "@gitzone/tsbuild": "^2.0.22",
+    "@gitzone/tsrun": "^1.1.12",
+    "@gitzone/tstest": "^1.0.15",
+    "@pushrocks/tapbundle": "^3.0.7",
+    "@types/node": "^10.9.4"
   }
 }
